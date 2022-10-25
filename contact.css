@@ -1,0 +1,67 @@
+header{
+    clear: both;
+    height: 75px;  
+    overflow: hidden;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    /* display: flex; */
+
+}
+.logoimg{
+    width: 120px;
+    float:left;
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 2px;
+}
+ul{
+    list-style-type: none;    
+    text-align: right;
+    margin-top: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+li{
+    display: inline;
+    list-style-type: square;
+    padding-right: 20px;
+}
+a:link{
+    color: black;
+    line-height: 75px;
+    height: 75px;
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+}
+body{
+    margin: 0px;
+    background-image: url('./paper.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+form{
+    border:1px;
+    box-shadow: 10px 10px 10px rgb(144, 144, 144);
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    width: 500px;
+    margin-left: 450px;
+    margin-top: 50px;
+}
+input{
+    background: none;
+}
+textarea{
+    background: none;
+}
+#submit{
+    margin-top: 10px;
+    grid-column-start: 2;
+    font-size: 15px;
+    display: inline-block;
+}

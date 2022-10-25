@@ -1,0 +1,110 @@
+header{
+    background: #efefef; 
+    clear: both;
+    height: 75px;  
+    overflow: hidden;
+    border-radius: 0 0 10px 10px;
+
+    /* display: flex; */
+
+}
+.logoimg{
+    width: 120px;
+    float:left;
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 2px;
+    
+}
+ul{
+    list-style-type: none;    
+    text-align: right;
+    margin-top: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+li{
+    display: inline;
+    list-style-type: square;
+    padding-right: 20px;
+}
+a:link{
+    color: black;
+    line-height: 75px;
+    height: 75px;
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+}
+
+body{
+    margin: 0px;
+    animation-name: animation;
+    animation-delay: 0s;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+#quote{
+    
+    font-family: 'Passions Conflict', cursive;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 150px;
+    margin-left: 20px;
+    text-shadow: 2px 2px rgb(161, 159, 159);
+}
+h2{
+    display: inline-block;
+    margin-left: 20px;
+    font-family: 'DM Serif Display', serif;
+    width:800px;
+    font-size: 48px;
+    
+}
+.tiramisu{
+    display: inline-block;
+    float: right;
+    width: 600px;
+    clear:both;
+    margin-top: 30px;
+    animation-name: imganimation;
+    animation-delay: 0s;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+main{
+    display: inline;
+
+}
+#tdescription{
+    width: 750px;
+    margin-left: 20px;
+    font-family: 'Noto Sans Mono', monospace;
+    display: inline-block;
+}
+
+@keyframes animation{
+   0%   {background-color:rgb(208, 208, 208); right:0px; top:0px;}
+  50%  {background-color:rgb(184, 184, 184); right:200px; top:0px;}
+  100%  {background-color:rgb(108, 108, 108); right:600px; top:0px;}
+}
+@keyframes imganimation{
+    from{
+   width: 600px;
+    clear:both;
+    margin-top: 30px;
+    }
+    to{
+        width: 550px;
+        clear:both;
+        margin-top: 20px;
+    }
+}
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@500&display=swap');
+

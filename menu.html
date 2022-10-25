@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./menu.css">
+</head>
+<body>
+    <header>
+        <img class="logoimg" src="./Unknown.png" alt="logo">
+        <nav>
+            <ul>
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="./menu.html" style="font-weight: bold;">MENU</a></li>
+                <li><a href="./contact.html">CONTACT</a></li>
+          </ul>
+        </nav>
+    </header> 
+    <form>
+        <div class="chocolate">
+            <label for="chocolate"><img src="./chocolate cake.png" class="cakes" alt="Chocolatecake">Chocolate Cake</label>
+            <input type="checkbox" name="chocolate" id="chocolate">
+            <label for="quantity">Quantity</label>
+            <input type="number" id="quantity" name="quantity" min="1" max="10">
+         </div>
+        <div class="cheese">
+            <label for="cheesecake"><img src="./cheesecake.png" class="cakes" alt="Cheesecake">Cheesecake</label>
+            <input type="checkbox" name="cheesecake" id="cheesecake">
+            <label for="quantity">Quantity</label>
+            <input type="number" id="quantity" name="quantity" min="1" max="10">
+        </div>
+        <div class="tiramisu">
+            <label for="tiramisu"><img src="./tiramisucake.png" class="cakes" alt="Tiramisu">Tiramisu</label>
+            <input type="checkbox" name="tiramisu" id="tiramisu">
+            <label for="quantity">Quantity</label>
+            <input type="number" id="quantity" name="quantity" min="1" max="10">
+        </div>
+    </form>
+    <div class="customerdetails">
+        <fieldset>
+            <form>
+                <div class="choosetype">
+                <p style="padding-right: 20px;">Type of order </p>
+                <input type="radio" id="pickup" name="choose" value="Pickup">
+                <label for="pickup">Pickup</label><br>
+                <input type="radio" id="delivery" name="choose" value="Delivery">
+                <label for="delivery">Delivery</label><br>
+            </div>
+            <div class="cdetails">
+                <label for="fname">Name</label>
+                <input type="name" id="fname" name="fname" ><br><br>
+                <label for="sname">Surname</label>
+                <input type="name" id="sname" name="sname"><br><br>
+                
+                <label for="email">E-mail</label>
+                <input for="email" id="email" name="email"> <br><br>
+
+                <label for="phone">Phone no.</label> 
+                <input for="phone" id="phone" name="phone"> <br><br>
+
+                <label for="address">Address</label>
+                <input for="address" id="address" name="address"> <br><br>
+                <button type="submit" id="submit">Submit</button>
+            </div>
+            </form>
+        
+    </fieldset>
+    </div>
+</body>
+</html>
+
+
+
+

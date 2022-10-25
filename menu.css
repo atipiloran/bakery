@@ -1,0 +1,113 @@
+header{
+    clear: both;
+    height: 75px;  
+    overflow: hidden;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    /* display: flex; */
+
+}
+.logoimg{
+    width: 120px;
+    float:left;
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 2px;
+}
+ul{
+    list-style-type: none;    
+    text-align: right;
+    margin-top: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+li{
+    display: inline;
+    list-style-type: square;
+    padding-right: 20px;
+}
+a:link{
+    color: black;
+    line-height: 75px;
+    height: 75px;
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+}
+body{
+    margin: 0px;
+    background-image: url('./paper.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cakes{
+    width: 300px;
+    height: auto;
+    margin-top: 30px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.chocolate{
+    margin-left: 100px;
+    border:1px;
+    box-shadow: 10px 10px 10px rgb(144, 144, 144);
+    display: inline-block;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+}
+.cheese{
+    margin-left: 60px;
+    border:1px;
+    box-shadow: 10px 10px 10px rgb(144, 144, 144);
+    display: inline-block;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+}
+
+.tiramisu{
+    margin-left: 60px;
+
+    border:1px;
+    box-shadow: 10px 10px 10px rgb(144, 144, 144);
+    display: inline-block;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+}
+.customerdetails{
+    border: 1px;
+    box-shadow: 10px 10px 10px 10px rgb(144, 144, 144);
+    margin: 50px 350px;
+    
+}
+.choosetype{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(84, 84, 84);
+    
+}
+.cdetails{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    justify-items: center;
+    border-bottom: 1px solid rgb(84, 84, 84);
+    padding: 20px;
+}
+input{
+    background: none;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+#submit{
+    margin-top: 10px;
+    grid-column-start: 2;
+    font-size: 15px;
+}
